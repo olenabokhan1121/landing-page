@@ -2,6 +2,8 @@
 
 A responsive landing page inspired by Bang & Olufsen, a premium audio brand. The page presents featured products, product categories, information about the brand, and a contact form.
 
+[Open the deployed Landing Page](https://olenabokhan1121.github.io/landing-page/)
+
 ## Technologies
 
 - HTML5
