@@ -1,5 +1,5 @@
 /* #region top-bar */
-@use '../utils/mixins.scss' as m;
+@use "../utils/mixins.scss" as m;
 
 .top-bar {
   padding-block: 24px;
@@ -24,6 +24,28 @@
 
     &:hover {
       transform: scale(1.1);
+    }
+  }
+
+  &__logo-link {
+    position: relative;
+    outline: none;
+
+    &::after {
+      content: "";
+      width: 100%;
+      position: absolute;
+      bottom: -4px;
+      display: block;
+      height: 1px;
+      background-color: #1b2129;
+      transform: scaleX(0);
+
+      @include m.smooth-hover;
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
     }
   }
 

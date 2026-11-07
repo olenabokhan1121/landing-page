@@ -1,6 +1,6 @@
 /* #region menu */
-@use '../utils/mixins.scss' as m;
-@use '../variables' as v;
+@use "../utils/mixins.scss" as m;
+@use "../variables" as v;
 
 .menu {
   height: 100vh;
@@ -32,6 +32,7 @@
     letter-spacing: 0.13em;
     display: block;
     margin-bottom: 20px;
+    outline: none;
 
     &:hover {
       color: #9393a3;
@@ -47,6 +48,7 @@
     text-transform: uppercase;
     display: block;
     width: fit-content;
+    outline: none;
 
     @include m.smooth-hover;
 

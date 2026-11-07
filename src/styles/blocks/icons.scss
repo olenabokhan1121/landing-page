@@ -1,5 +1,5 @@
 /* #region icon */
-@use '../utils/mixins.scss' as m;
+@use "../utils/mixins.scss" as m;
 
 .icon {
   display: block;
@@ -22,7 +22,7 @@
     &::after {
       @include m.smooth-hover;
 
-      content: '+1 234 555-55-55';
+      content: "+1 234 555-55-55";
       position: absolute;
       left: -420%;
       top: 50%;
@@ -46,6 +46,7 @@
   }
   &--close {
     background-image: url(../icons/icon-close.png);
+    outline: none;
 
     @include m.smooth-hover;
 
